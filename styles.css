@@ -1,14 +1,15 @@
 body {
+    font-family: 'Merriweather', Georgia, 'Times New Roman', Times, serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #171822;
     color: white;
 }
+
 
 .profile-container {
     display: flex;
