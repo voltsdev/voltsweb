@@ -37,15 +37,16 @@ p {
 }
 
 a {
-    color: #6a5bf3;
-    text-decoration: none;
-    transition: color 0.3s ease;
+    color: #6a5bf3 !important;
+    text-decoration: none !important;
+    transition: color 0.3s ease !important;
 }
 
 a:hover {
-    color: #a46fd6;
-    text-decoration: underline;
+    color: #a46fd6 !important;
+    text-decoration: underline !important;
 }
+
 
 @media (max-width: 600px) {
     body {
