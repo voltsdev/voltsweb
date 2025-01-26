@@ -6,32 +6,32 @@ body {
     height: 100vh;
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #24273a; /* Set background color */
-    color: white; /* Default text color */
+    background-color: #24273a;
+    color: white;
 }
 
 .profile-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px; /* Add space between the picture and the text */
+    gap: 20px;
 }
 
 .profile-pic {
-    width: 100px; /* Adjust size as needed */
+    width: 100px;
     height: 100px;
-    border-radius: 50%; /* Make the image circular */
-    border: 2px solid white; /* Optional: Add a border */
-    object-fit: cover; /* Ensure the image fits perfectly */
+    border-radius: 50%;
+    border: 2px solid white;
+    object-fit: cover;
 }
 
 h1 {
-    font-size: 2.6em; /* Increase the font size */
-    margin:20px; /* Remove default margin */
+    font-size: 2.6em;
+    margin: 20px;
 }
 
 p {
-    font-size: 1.3em; /* Increase the font size */
-    margin-top: 20px; /* Add spacing between text and profile container */
-    color: #dfdfdf; /* Set a custom color for the paragraph */
+    font-size: 1.3em;
+    margin-top: 20px;
+    color: #dfdfdf;
 }
