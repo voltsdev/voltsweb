@@ -125,14 +125,14 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: url('voltsbg.png') center center/cover no-repeat;
+  background: url('bg.jpg') center center/cover no-repeat;
   filter: blur(10px);
   z-index: -1;
   opacity: 0.6;
 }
 
 .content-box {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.445);
   border-radius: 15px;
   padding: 30px;
   text-align: center;
@@ -143,7 +143,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 20px;
+  gap: 1px;
 }
 
 .profile-pic {
@@ -177,13 +177,13 @@ p {
 }
 
 a {
-  color: #6a5bf3 !important;
+  color: #6070ff !important;
   text-decoration: none !important;
   transition: color 0.3s ease !important;
 }
 
 a:hover {
-  color: #a46fd6 !important;
+  color: #4f99df !important;
   text-decoration: underline !important;
 }
 
