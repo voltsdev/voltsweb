@@ -1,15 +1,143 @@
 body {
-    font-family: 'Merriweather', Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Kanit', sans-serif;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #1b1c29;
-    color: white;
+    background-color: #231f30;
+    color: rgb(255, 255, 255);
+    position: relative;
+    overflow: hidden;
 }
 
+.kanit-thin {
+    font-family: "Kanit", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .kanit-extralight {
+    font-family: "Kanit", serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .kanit-light {
+    font-family: "Kanit", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .kanit-regular {
+    font-family: "Kanit", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .kanit-medium {
+    font-family: "Kanit", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .kanit-semibold {
+    font-family: "Kanit", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .kanit-bold {
+    font-family: "Kanit", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .kanit-extrabold {
+    font-family: "Kanit", serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .kanit-black {
+    font-family: "Kanit", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .kanit-thin-italic {
+    font-family: "Kanit", serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .kanit-extralight-italic {
+    font-family: "Kanit", serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .kanit-light-italic {
+    font-family: "Kanit", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .kanit-regular-italic {
+    font-family: "Kanit", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .kanit-medium-italic {
+    font-family: "Kanit", serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .kanit-semibold-italic {
+    font-family: "Kanit", serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .kanit-bold-italic {
+    font-family: "Kanit", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .kanit-extrabold-italic {
+    font-family: "Kanit", serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .kanit-black-italic {
+    font-family: "Kanit", serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('background.jpg') center center/cover no-repeat;
+    filter: blur(10px);
+    z-index: -1;
+    opacity: 0.6;
+}
+
+.content-box {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 15px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
 
 .profile-container {
     display: flex;
@@ -28,14 +156,25 @@ body {
 
 h1 {
     font-size: 2.6em;
-    margin: 20px;
+    margin-bottom: 10px;
 }
 
 p {
     font-size: 1.3em;
-    margin-top: 20px;
+    margin-top: 5px;
     color: #dfdfdf;
     text-align: center;
+}
+
+
+.socials ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.socials ul li {
+    margin: 10px 0;
 }
 
 a {
@@ -49,7 +188,6 @@ a:hover {
     text-decoration: underline !important;
 }
 
-
 @media (max-width: 600px) {
     body {
         padding: 10px;
@@ -61,12 +199,12 @@ a:hover {
     }
 
     h1 {
-        font-size: 2em;
+        font-size: 3.2em;
         margin: 15px;
     }
 
     p {
-        font-size: 1em;
+        font-size: 1.5em;
         margin-top: 15px;
     }
 }
