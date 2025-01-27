@@ -125,7 +125,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: url('bg.jpg') center center/cover no-repeat;
+    background: url('bg.png') center center/cover no-repeat;
     filter: blur(10px);
     z-index: -1;
     opacity: 0.6;
@@ -177,13 +177,13 @@ body {
   }
   
   a {
-    color: #6070ff !important;
+    color: #fdbd64 !important;
     text-decoration: none !important;
     transition: color 0.3s ease !important;
   }
   
   a:hover {
-    color: #4f99df !important;
+    color: #ea6565 !important;
     text-decoration: underline !important;
   }
   
