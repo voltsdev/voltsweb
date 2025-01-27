@@ -125,7 +125,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: url('bg.png') center center/cover no-repeat;
+    background: url('Purplebg.jpg') center center/cover no-repeat;
     filter: blur(10px);
     z-index: -1;
     opacity: 0.6;
@@ -177,22 +177,22 @@ body {
   }
   
   a {
-    color: #fdbd64 !important;
+    color: #70b7f1 !important;
     text-decoration: none !important;
     transition: color 0.3s ease !important;
   }
   
   a:hover {
-    color: #ea6565 !important;
+    color: #7f60ee !important;
     text-decoration: underline !important;
   }
   
   .contactme-text {
-    font-size: 0.7em;
-    color: #514e4e;
+    font-size: 0.9em;
+    color: #dadada;
     margin-top: -5px;
     text-align: center;
-    line-height: 1.6;
+    line-height: 1.5;
   }
   
   @media (max-width: 600px) {
