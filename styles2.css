@@ -125,7 +125,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: url('imgs/River\ BG.png') center center/cover no-repeat;
+    background: url('imgs/Skyline.png') center center/cover no-repeat;
     filter: blur(10px);
     z-index: -1;
     opacity: 0.6;
